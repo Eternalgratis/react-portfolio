@@ -69,9 +69,8 @@ const Portfolio = () => {
               </div>
               <h3>This is a portfolio item title</h3>
               <div className="portfolio__item-cta">
-              {/* eslint-disable-next-line react/jsx-no-target-blank */}
                 <a href={github} className='btn' target='_blank'>GitHub</a>
-                <a href={livedemo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href={data.livedemo} className='btn btn-primary' target='_blank'>Live Demo</a>
               </div>
             </article>
             )
