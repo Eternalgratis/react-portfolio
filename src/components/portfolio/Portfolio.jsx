@@ -17,18 +17,18 @@ const data = [
     livedemo: 'https://dribble.com/Alien_pixels',
   },
   {
-  id: 2,
-  title: 'Bookstore',
-  image: IMG2,
-  github: 'https://github.com/Eternalgratis/Bookstore',
-  livedemo: 'https://eternalgratis-bookstore.netlify.app/'
+    id: 2,
+    title: 'Bookstore',
+    image: IMG2,
+    github: 'https://github.com/Eternalgratis/Bookstore',
+    livedemo: 'https://eternalgratis-bookstore.netlify.app/'
   },
   {
-  id: 3,
-  title: 'Leaderboard',
-  image: IMG3,
-  github: 'https://github.com/Eternalgratis/Leaderboard',
-  livedemo: 'https://eternalgratis-leaderboard.netlify.app/'
+    id: 3,
+    title: 'Leaderboard',
+    image: IMG3,
+    github: 'https://github.com/Eternalgratis/Leaderboard',
+    livedemo: 'https://eternalgratis-leaderboard.netlify.app/'
   },
   {
     id: 4,
@@ -45,11 +45,11 @@ const data = [
     livedemo: 'https://space-travelers-hub-1088.netlify.app/',
   },
   {
-    id: 6,
-    title: 'Car Cruise',
-    image: IMG6,
-    github: 'https://github.com/Eternalgratis/car_cruise_rental',
-    livedemo: 'https://dribble.com/Alien_pixels',
+     id: 6,
+     title: 'Car Cruise',
+     image: IMG6,
+     github: 'https://github.com/Eternalgratis/car_cruise_rental',
+     livedemo: 'https://dribble.com/Alien_pixels',
   },
 ]
 
