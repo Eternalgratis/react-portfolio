@@ -14,42 +14,42 @@ const data = [
     title: 'Awesome Books',
     image: IMG1,
     github: 'https://github.com/Eternalgratis/AwesomebooksES6',
-    liveDemo: 'https://dribble.com/Alien_pixels',
+    livedemo: 'https://dribble.com/Alien_pixels',
   },
   {
   id: 2,
   title: 'Bookstore',
   image: IMG2,
   github: 'https://github.com/Eternalgratis/Bookstore',
-  liveDemo: 'https://eternalgratis-bookstore.netlify.app/'
+  livedemo: 'https://eternalgratis-bookstore.netlify.app/'
   },
   {
   id: 3,
   title: 'Leaderboard',
   image: IMG3,
   github: 'https://github.com/Eternalgratis/Leaderboard',
-  liveDemo: 'https://eternalgratis-leaderboard.netlify.app/'
+  livedemo: 'https://eternalgratis-leaderboard.netlify.app/'
   },
   {
     id: 4,
     title: 'Math Magician',
     image: IMG4,
     github: 'https://github.com/Eternalgratis/Math-magician',
-    liveDemo: 'https://eternalgratis-math-magician.netlify.app/',
+    livedemo: 'https://eternalgratis-math-magician.netlify.app/',
   },
   {
     id: 5,
     title: 'Space Travelers',
     image: IMG5,
     github: 'https://github.com/Eternalgratis/Space-Travelers',
-    liveDemo: 'https://space-travelers-hub-1088.netlify.app/',
+    livedemo: 'https://space-travelers-hub-1088.netlify.app/',
   },
   {
     id: 6,
     title: 'Car Cruise',
     image: IMG6,
     github: 'https://github.com/Eternalgratis/car_cruise_rental',
-    liveDemo: 'https://dribble.com/Alien_pixels',
+    livedemo: 'https://dribble.com/Alien_pixels',
   },
 ]
 
