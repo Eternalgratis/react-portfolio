@@ -17,23 +17,23 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>Create placeholders for clear direction of what is required.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>Create a hierarchy of styles and fonts.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>Radio buttons and dropdown for quick decision of options</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>Icons for effective communication.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>And Many More!!!</p>
             </li>
           </ul>
         </article>
@@ -46,56 +46,56 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>Ensure apps takes bearest minimum time to load</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>Create User-Friendly applications</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>Ensure clear and effective CTAs</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>Create Mobile responsive applications.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>Ensure cross browser compatibility</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <p>Optimized for search Engines</p>
             </li>
           </ul>
         </article>
         {/* End of UWeb Development */}
         <article className='service'>
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Articles</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <a href="https://medium.com/@tyaps002/describing-my-journey-as-a-new-software-developer-1ec854e20dca">Describing my journey as a Junior developer</a>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <a href="#">More to come very soon</a>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <a href="#">In Progress</a>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <a href="#">In Progress</a>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem. ipsum dolor sit amet consectetur elit.</p>
+              <a href="#">In Progress</a>
             </li>
           </ul>
         </article>

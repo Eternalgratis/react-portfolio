@@ -41,9 +41,16 @@
     margin-bottom: 0.8rem;
 }
 
-.service__list p {
-    font-size: 0.9rem;
+.service__list a {
+    color: var(--color-primary);
+    font-size: 1rem;
+    text-decoration: none;
+    transition: var(--transition);
 }
+
+/* .service__list p {
+    font-size: 0.9rem;
+} */
 
 /* ===========MEDIA QUERIES (MEDIUM DEVICES)===========*/
 @media screen and (max-width: 1024px) {

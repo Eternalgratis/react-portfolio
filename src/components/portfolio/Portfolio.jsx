@@ -15,6 +15,7 @@ const data = [
     image: IMG1,
     github: 'https://github.com/Eternalgratis/AwesomebooksES6',
     livedemo: 'https://eternalgratis.github.io/AwesomebooksES6/',
+    languages: ' HTML, CSS, JavaScript',
     description: 'This is a basic website that enables a user to add or remove books from a list. It was built using ES6'
   },
   {
@@ -23,6 +24,7 @@ const data = [
     image: IMG2,
     github: 'https://github.com/Eternalgratis/Bookstore',
     livedemo: 'https://eternalgratis-bookstore.netlify.app/',
+    languages: ' HTML, CSS, JavaScript, React',
     description: 'This is a project built with react that displays list of books where you can add and remove a selected book'
   },
   {
@@ -31,6 +33,7 @@ const data = [
     image: IMG3,
     github: 'https://github.com/Eternalgratis/Leaderboard',
     livedemo: 'https://eternalgratis-leaderboard.netlify.app/',
+    languages: ' HTML, CSS, JavaScript',
     description: 'A JavaScript project named leaderboard website which displays scores submitted by different players and also allows a user to submit their scores'
   },
   {
@@ -39,7 +42,8 @@ const data = [
     image: IMG4,
     github: 'https://github.com/Eternalgratis/Math-magician',
     livedemo: 'https://eternalgratis-math-magician.netlify.app/',
-    description: 'This is a Single Page App (SPA) for all fans of mathematics that allows users to make simple calculations and read a random math-related quote'
+    languages: ' HTML, CSS, JavaScript, React',
+    description: 'This project is a single Page App (SPA) for all the fans of mathematics and it allows users to make simple calculations and read a random math-related quote'
   },
   {
     id: 5,
@@ -47,6 +51,7 @@ const data = [
     image: IMG5,
     github: 'https://github.com/Eternalgratis/Space-Travelers',
     livedemo: 'https://space-travelers-hub-1088.netlify.app/',
+    languages: ' HTML, CSS, JavaScript, React, Redux',
     description: 'A web application for a company that provides commercial and scientific space travel services. It pulls from an open API for bookings and allows users to book rockets, dragons and join selected space missions.'
   },
   {
@@ -55,6 +60,7 @@ const data = [
      image: IMG6,
      github: 'https://github.com/Eternalgratis/Budget-app',
      livedemo: 'https://dribble.com/Alien_pixels',
+      languages: 'Ruby on Rails',
      description: 'This a mobile web application where you can manage your budget and have a list of transactions associated with a category, so that you can see how much money you spent and on what.'
   },
 ]
@@ -67,7 +73,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({ id, title, image, github, livedemo, description }) => {
+          data.map(({ id, title, image, github, livedemo, languages, description }) => {
             return (
             <article key={id} className='portfolio__item'>
               <div className="portfolio__item-image">
@@ -78,7 +84,11 @@ const Portfolio = () => {
                 <a href={github} className='btn' target='_blank'>GitHub</a>
                 <a href={livedemo} className='btn btn-primary' target='_blank'>Live Demo</a>
               </div>
-              <p className='portfolio__description'>{description}</p>
+              <div className='portfolio__description'>
+                <h3>Built with</h3>
+                <h5>{languages}</h5>
+                <p>{description}</p>
+              </div>
             </article>
             )
           })
