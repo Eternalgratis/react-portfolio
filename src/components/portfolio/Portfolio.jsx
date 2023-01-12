@@ -14,7 +14,7 @@ const data = [
     title: 'Awesome Books',
     image: IMG1,
     github: 'https://github.com/Eternalgratis/AwesomebooksES6',
-    livedemo: 'https://dribble.com/Alien_pixels',
+    livedemo: 'https://eternalgratis.github.io/AwesomebooksES6/',
   },
   {
     id: 2,
