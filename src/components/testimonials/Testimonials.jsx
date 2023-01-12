@@ -19,27 +19,27 @@ const data = [
   {
     avatar: avatar1,
     name: 'Natasha Chirombe',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam iure provident amet? Necessitatibus qui sapiente temporibus perspiciatis. Ipsa, qui? Dignissimos, dolorem cumque sit expedita consequatur iusto quam assumenda itaque. Quidem unde animi aliquid ab aut natus explicabo. Possimus explicabo unde totam impedit repudiandae reiciendis pariatur minima, ex vitae nam, molestiae, aliquam doloremque voluptatibus reprehenderit ratione laborum tempore. Quae, itaque! Nemo cumque dignissimos necessitatibus eos obcaecati, neque inventore nobis reiciendis, esse quod, facilis officiis veritatis perferendis illum doloribus dolorem. Maxime cupiditate debitis ad quidem consequatur fugiat eos, pariatur fugit placeat.'
+    review: 'A great teammate and software developer, she is always ready to put in 100% of her work.I have worked with her and l have never regretted any moment.She will be of value to any company , l would definitely love to work with her again'
   },
   {
     avatar: avatar2,
     name: 'Ambrose Isigba',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam iure provident amet? Necessitatibus qui sapiente temporibus perspiciatis. Ipsa, qui? Dignissimos, dolorem cumque sit expedita consequatur iusto quam assumenda itaque. Quidem unde animi aliquid ab aut natus explicabo. Possimus explicabo unde totam impedit repudiandae reiciendis pariatur minima, ex vitae nam, molestiae, aliquam doloremque voluptatibus reprehenderit ratione laborum tempore. Quae, itaque! Nemo cumque dignissimos necessitatibus eos obcaecati, neque inventore nobis reiciendis, esse quod, facilis officiis veritatis perferendis illum doloribus dolorem. Maxime cupiditate debitis ad quidem consequatur fugiat eos, pariatur fugit placeat.'
+    review: 'A very hard-working individual. She always tries to learn something new so I can say she is a lifelong learner. I think that is a very important thing and unique thing in web development.'
   },
   {
     avatar: avatar3,
     name: 'Aneal Layea',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam iure provident amet? Necessitatibus qui sapiente temporibus perspiciatis. Ipsa, qui? Dignissimos, dolorem cumque sit expedita consequatur iusto quam assumenda itaque. Quidem unde animi aliquid ab aut natus explicabo. Possimus explicabo unde totam impedit repudiandae reiciendis pariatur minima, ex vitae nam, molestiae, aliquam doloremque voluptatibus reprehenderit ratione laborum tempore. Quae, itaque! Nemo cumque dignissimos necessitatibus eos obcaecati, neque inventore nobis reiciendis, esse quod, facilis officiis veritatis perferendis illum doloribus dolorem. Maxime cupiditate debitis ad quidem consequatur fugiat eos, pariatur fugit placeat.'
+    review: 'She is a committed developer, always open to new ideas and full of energy. Building projects together has been a delightful experience, she definitely knows how to be a team player. Resourceful and passionate, she is willing to overcome any challenge she faces. She is an element that cannot be missing from your team.'
   },
   {
     avatar: avatar4,
     name: 'Afolabi Akorede',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam iure provident amet? Necessitatibus qui sapiente temporibus perspiciatis. Ipsa, qui? Dignissimos, dolorem cumque sit expedita consequatur iusto quam assumenda itaque. Quidem unde animi aliquid ab aut natus explicabo. Possimus explicabo unde totam impedit repudiandae reiciendis pariatur minima, ex vitae nam, molestiae, aliquam doloremque voluptatibus reprehenderit ratione laborum tempore. Quae, itaque! Nemo cumque dignissimos necessitatibus eos obcaecati, neque inventore nobis reiciendis, esse quod, facilis officiis veritatis perferendis illum doloribus dolorem. Maxime cupiditate debitis ad quidem consequatur fugiat eos, pariatur fugit placeat.'
+    review: 'She is a very proactive person in terms of learning new things or trying out something new. she has a good sense while writing industry-standard code. she is very fun to work with and helpful every time she is needed. I would like to highly recommend her for any Software development role. I believe she can add good value to any tech team, be it remote or on-site'
   },
   {
     avatar: avatar5,
     name: 'Ese Odinko',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam iure provident amet? Necessitatibus qui sapiente temporibus perspiciatis. Ipsa, qui? Dignissimos, dolorem cumque sit expedita consequatur iusto quam assumenda itaque. Quidem unde animi aliquid ab aut natus explicabo. Possimus explicabo unde totam impedit repudiandae reiciendis pariatur minima, ex vitae nam, molestiae, aliquam doloremque voluptatibus reprehenderit ratione laborum tempore. Quae, itaque! Nemo cumque dignissimos necessitatibus eos obcaecati, neque inventore nobis reiciendis, esse quod, facilis officiis veritatis perferendis illum doloribus dolorem. Maxime cupiditate debitis ad quidem consequatur fugiat eos, pariatur fugit placeat.'
+    review: 'An amazing individual with a great personality. We collaborated on couple of projects and i must she is very diligent with her work. She is kind and caring and was always available when needed for problem-solving. I recommend her for any job opportunity.'
   },
 ]
 
