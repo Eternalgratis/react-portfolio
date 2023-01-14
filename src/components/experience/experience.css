@@ -42,7 +42,7 @@
 /* ===========MEDIA QUERIES (MEDIUM DEVICES)===========*/
 @media screen and (max-width: 1024px) {
     .experience__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .experience__container > div {

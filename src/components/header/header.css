@@ -1,5 +1,5 @@
 header {
-    height: 180vh;
+    height: 150vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -37,17 +37,16 @@ header {
 }
 
 /* ======== ME ======== */
-.me {
+.fullstack__image {
     /* background: linear-gradient(var(--color-primary), transparent); */
     width: 22rem;
-    height: 30rem;
-    margin-top: 3rem;
+    /* height: 30rem; */
     position: absolute;
     left: calc(50% - 11rem);
-    /* border-radius: 12rem 12rem 0 0; */
-    border-radius: 2rem;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+    padding: 5rem 1.5rem;
 }
 
 /* ======== SCROLL DOWN ======== */
@@ -63,20 +62,38 @@ header {
 /* ===========MEDIA QUERIES (MEDIUM DEVICES)===========*/
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        /* height: 68vh; */
+        margin-bottom: 10rem;
     }
 
 
     /* ===========MEDIA QUERIES (SMALL DEVICES)===========*/
     @media screen and (max-width: 600px) {
         header {
-            height: 100vh;
+            /* height: 80vh; */
+            /* margin-bottom: 8rem; */
         }
 
         .header__socials,
         .socials__down {
         display: none;
-    }
+        }
+
+        .fullstack__image {
+            /* background: linear-gradient(var(--color-primary), transparent); */
+            width: 70%;
+            height: 10rem;
+            position: absolute;
+            left: calc(50% - 11rem);
+            margin: 1rem 2rem 1rem 2rem;
+            border-radius: 5rem 5rem 0 0;
+            overflow: hidden;
+            padding: 2rem 3rem;
+        }
+
+        .scroll__down {
+            margin-right: -2rem;
+        }
     }
 
 }

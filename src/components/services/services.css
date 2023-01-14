@@ -42,7 +42,7 @@
 }
 
 .service__list a {
-    color: var(--color-primary);
+    color: var(--color-light);
     font-size: 1rem;
     text-decoration: none;
     transition: var(--transition);

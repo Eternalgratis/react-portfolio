@@ -1,5 +1,5 @@
 import React from 'react'
-import ME from '../../assets/me.png'
+import FullStack from '../../assets/fullstack.png'
 import HeaderSocials from './HeaderSocials'
 import CTA from './CTA'
 import './header.css'
@@ -13,8 +13,8 @@ function Header() {
         <h5 className='text-light'>FullStack Developer</h5>
         <CTA />
         <HeaderSocials />
-        <div className="me">
-          <img src={ME} alt="picure of me" />
+        <div className="fullstack__image">
+          <img src={FullStack} alt="picure of me" />
         </div>
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
