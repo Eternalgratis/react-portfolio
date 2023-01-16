@@ -61,7 +61,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 - Vercel
 
-[Live Demo](https://eternalgratis-portfolio.vercel.app/)
+[Live Demo](https://eternalgratis-react-portfolio-lgqg4yk42-eternalgratis.vercel.app/)
 
 ### `npm run build` fails to minify
 
