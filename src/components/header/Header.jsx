@@ -8,9 +8,9 @@ function Header() {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
+        <h5>Hello  I&apos;m</h5>
         <h1>Eternalgratis</h1>
-        <h5 className='text-light'>FullStack Developer</h5>
+        <h5 className='text-light'>FullStack Developer skilled in Javascript react ruby and ruby on rails</h5>
         <CTA />
         <HeaderSocials />
         <div className="fullstack__image">

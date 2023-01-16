@@ -5,7 +5,13 @@
 }
 
 .portfolio__description {
-    width: 45vh;
+    /* width: 45vh; */
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
 }
 
 .portfolio__description h3 {

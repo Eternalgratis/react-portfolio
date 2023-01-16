@@ -13,55 +13,56 @@ const data = [
     id: 1,
     title: 'Awesome Books',
     image: IMG1,
+    languages: ' HTML, CSS, JavaScript',
+    description: 'This is a basic website that enables a user to add or remove books from a list. It was built using ES6',
     github: 'https://github.com/Eternalgratis/AwesomebooksES6',
     livedemo: 'https://eternalgratis.github.io/AwesomebooksES6/',
-    languages: ' HTML, CSS, JavaScript',
-    description: 'This is a basic website that enables a user to add or remove books from a list. It was built using ES6'
+
   },
   {
     id: 2,
     title: 'Bookstore',
     image: IMG2,
+    languages: ' HTML, CSS, JavaScript, React',
+    description: 'This is a project built with react that displays list of books where you can add and remove a selected book',
     github: 'https://github.com/Eternalgratis/Bookstore',
     livedemo: 'https://eternalgratis-bookstore.netlify.app/',
-    languages: ' HTML, CSS, JavaScript, React',
-    description: 'This is a project built with react that displays list of books where you can add and remove a selected book'
   },
   {
     id: 3,
     title: 'Leaderboard',
     image: IMG3,
+    languages: ' HTML, CSS, JavaScript',
+    description: 'A JavaScript project named leaderboard website which displays scores submitted by different players and also allows a user to submit their scores',
     github: 'https://github.com/Eternalgratis/Leaderboard',
     livedemo: 'https://eternalgratis-leaderboard.netlify.app/',
-    languages: ' HTML, CSS, JavaScript',
-    description: 'A JavaScript project named leaderboard website which displays scores submitted by different players and also allows a user to submit their scores'
   },
   {
     id: 4,
     title: 'Math Magician',
     image: IMG4,
+    languages: ' HTML, CSS, JavaScript, React',
+    description: 'This project is a single Page App (SPA) for all the fans of mathematics and it allows users to make simple calculations and read a random math-related quote',
     github: 'https://github.com/Eternalgratis/Math-magician',
     livedemo: 'https://eternalgratis-math-magician.netlify.app/',
-    languages: ' HTML, CSS, JavaScript, React',
-    description: 'This project is a single Page App (SPA) for all the fans of mathematics and it allows users to make simple calculations and read a random math-related quote'
   },
   {
     id: 5,
     title: 'Space Travelers',
     image: IMG5,
+    languages: ' HTML, CSS, JavaScript, React, Redux',
+    description: 'A web application for a company that provides commercial and scientific space travel services. It pulls from an open API for bookings and allows users to book rockets, dragons and join selected space missions.',
     github: 'https://github.com/Eternalgratis/Space-Travelers',
     livedemo: 'https://space-travelers-hub-1088.netlify.app/',
-    languages: ' HTML, CSS, JavaScript, React, Redux',
-    description: 'A web application for a company that provides commercial and scientific space travel services. It pulls from an open API for bookings and allows users to book rockets, dragons and join selected space missions.'
   },
   {
      id: 6,
      title: 'Budget App',
      image: IMG6,
+      languages: 'Ruby on Rails',
+     description: 'This a mobile web application where you can manage your budget and have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
      github: 'https://github.com/Eternalgratis/Budget-app',
      livedemo: 'https://dribble.com/Alien_pixels',
-      languages: 'Ruby on Rails',
-     description: 'This a mobile web application where you can manage your budget and have a list of transactions associated with a category, so that you can see how much money you spent and on what.'
   },
 ]
 
@@ -80,14 +81,14 @@ const Portfolio = () => {
                 <img src={image} alt={description} />
               </div>
               <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank'>GitHub</a>
-                <a href={livedemo} className='btn btn-primary' target='_blank'>Live Demo</a>
-              </div>
               <div className='portfolio__description'>
                 <h3>Built with</h3>
                 <h5>{languages}</h5>
                 <p>{description}</p>
+              </div>
+              <div className="portfolio__item-cta">
+                <a href={github} className='btn' target='_blank'>GitHub</a>
+                <a href={livedemo} className='btn btn-primary' target='_blank'>Live Demo</a>
               </div>
             </article>
             )
