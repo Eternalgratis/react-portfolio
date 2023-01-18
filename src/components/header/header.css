@@ -38,17 +38,23 @@ header {
 
 /* ======== ME ======== */
 .fullstack__image {
-    /* background: linear-gradient(var(--color-primary), transparent); */
     width: 22rem;
-    /* height: 30rem; */
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem;
+    animation-name: slide;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
 }
 
+@keyframes slide {
+  50%  { right:10rem; left: 0px;}
+  75%  { right:10rem;}
+  100% { right: 10rem;}
+}
+
+  
 /* ======== SCROLL DOWN ======== */
 .scroll-down {
     position: absolute;
@@ -65,6 +71,17 @@ header {
         height: 60vh;
         margin-bottom: 2rem;
     }
+
+    .fullstack__image {
+        /* background: linear-gradient(var(--color-primary), transparent); */
+        width: 22rem;
+        /* height: 30rem; */
+        position: absolute;
+        left: calc(50% - 11rem);
+        margin-top: 4rem;
+        overflow: hidden;
+    }
+    
 
 
     /* ===========MEDIA QUERIES (SMALL DEVICES)===========*/
@@ -88,8 +105,9 @@ header {
             margin: 9rem 2rem 1rem 2rem;
             border-radius: 5rem 5rem 0 0;
             overflow: hidden;
-            padding: 2rem 3.5rem;
+            padding: 2rem 3.5rem; 
         }
+
 
         .scroll__down {
             margin-right: -2rem;

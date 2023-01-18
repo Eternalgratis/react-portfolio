@@ -1,3 +1,11 @@
+#experience {
+  margin-top: 4.4rem;
+}
+
+#experience h5 {
+  margin-bottom: 2.4rem;
+}
+
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -5,7 +13,7 @@
 }
 
 .experience__container > div {
-    background: var(--color-primary-variant);
+    background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -36,7 +44,7 @@
 
 .experience__details-icons {
     margin-top: 6px;
-    color: vara(--color-primary);
+    color: var(--color-primary);
 }
 
 /* ===========MEDIA QUERIES (MEDIUM DEVICES)===========*/
@@ -46,7 +54,7 @@
       }
     
       .experience__container {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         margin-top: 2rem;
       }
     
@@ -63,12 +71,10 @@
     /* ===========MEDIA QUERIES (SMALL DEVICES)===========*/
     @media screen and (max-width: 600px) {
         #experience {
-            margin-top: 8rem;
+            margin-top: 22rem;
           }
         
           .experience__container {
-            display: grid;
-            grid-template-columns: 1fr;
             gap: 1rem;
           }
         

@@ -4,8 +4,8 @@ import IMG1 from '../../assets/awesomebooks.png';
 import IMG2 from '../../assets/bookstore.png';
 import IMG3 from '../../assets/leaderboard.png';
 import IMG4 from '../../assets/Math-Magician.png';
-import IMG5 from '../../assets/spaceTravelers.png';
-import IMG6 from '../../assets/BudgetApp.png';
+import IMG5 from '../../assets/tvshows.png';
+import IMG6 from '../../assets/agrosummit.png';
 
 
 const data = [
@@ -33,7 +33,7 @@ const data = [
     title: 'Leaderboard',
     image: IMG3,
     languages: ' HTML, CSS, JavaScript',
-    description: 'A JavaScript project named leaderboard website which displays scores submitted by different players and also allows a user to submit their scores',
+    description: 'A JavaScript website which displays and submit scores by different players.',
     github: 'https://github.com/Eternalgratis/Leaderboard',
     livedemo: 'https://eternalgratis-leaderboard.netlify.app/',
   },
@@ -41,28 +41,28 @@ const data = [
     id: 4,
     title: 'Math Magician',
     image: IMG4,
-    languages: ' HTML, CSS, JavaScript, React',
-    description: 'This project is a single Page App (SPA) for all the fans of mathematics and it allows users to make simple calculations and read a random math-related quote',
+    languages: 'HTML, CSS, JavaScript, React',
+    description: 'A single Page App (SPA) for all the fans of mathematics and it allows users to make simple calculations and read a random math-related quote',
     github: 'https://github.com/Eternalgratis/Math-magician',
     livedemo: 'https://eternalgratis-math-magician.netlify.app/',
   },
   {
     id: 5,
-    title: 'Space Travelers',
+    title: 'Tv Shows',
     image: IMG5,
     languages: ' HTML, CSS, JavaScript, React, Redux',
-    description: 'A web application for a company that provides commercial and scientific space travel services. It pulls from an open API for bookings and allows users to book rockets, dragons and join selected space missions.',
-    github: 'https://github.com/Eternalgratis/Space-Travelers',
-    livedemo: 'https://space-travelers-hub-1088.netlify.app/',
+    description: 'An open API fetched webpage where we can see series of different kinds, called TV MAX',
+    github: 'https://github.com/Eternalgratis/tv-shows',
+    livedemo: 'https://eternalgratis-tvshows.netlify.app/',
   },
   {
      id: 6,
-     title: 'Budget App',
+     title: 'Agro Summit',
      image: IMG6,
-      languages: 'Ruby on Rails',
-     description: 'This a mobile web application where you can manage your budget and have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-     github: 'https://github.com/Eternalgratis/Budget-app',
-     livedemo: 'https://dribble.com/Alien_pixels',
+      languages: 'JavaScript, HTML, CSS',
+     description: 'This shows list of past agricultural summit and their details for future reference to serve as guidelines',
+     github: 'https://github.com/Eternalgratis/First-capstone-Project',
+     livedemo: 'https://agro-food-summit.netlify.app/',
   },
 ]
 

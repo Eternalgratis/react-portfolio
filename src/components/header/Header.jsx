@@ -9,12 +9,12 @@ function Header() {
     <header>
       <div className="container header__container">
         <h5>Hello  I&apos;m</h5>
-        <h1>Eternalgratis</h1>
+        <h1>Apuabi Titilope</h1>
         <h5 className='text-light'>FullStack Developer skilled in Javascript react ruby and ruby on rails</h5>
         <CTA />
         <HeaderSocials />
         <div className="fullstack__image">
-          <img src={FullStack} alt="picure of me" />
+          <img src={FullStack} alt="picure of me" id="slide" /> 
         </div>
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
