@@ -11,7 +11,8 @@
     background: linear-gradient(
         45deg,
         transparent,
-        var(--color-primary),
+        /* var(--color-primary), */
+        rgb(204, 100, 100)
         transparent
     );
     display: grid;
@@ -51,7 +52,8 @@
 }
 
 .about__icon {
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
+    color: rgb(104 33 33);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -62,12 +64,14 @@
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: var(--color-bg);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    /* color: var(--color-bg-variant); */
+    color: #333;
+    font-size: 20px;
 }
 
 /* ===========MEDIA QUERIES (MEDIUM DEVICES)===========*/

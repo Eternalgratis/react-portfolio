@@ -5,8 +5,8 @@
 }
 
 .portfolio__description {
-    /* width: 45vh; */
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant); */
+    background: rgb(183 134 134 / 55%);
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -30,7 +30,8 @@
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant); */
+    background: rgb(204, 100, 100);
     padding: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;

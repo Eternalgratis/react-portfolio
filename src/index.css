@@ -35,9 +35,10 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
-    color: var(--color-light);
+    /* color: var(--color-light); */
+    color: var(--color-bg);
     line-height: 1.7;
-    /* background-image: url(./assets/bg2.png); */
+    background-image: url(./assets/bg2.png);
 }
 
 /*===========GENERAL STYLES=============*/
@@ -48,6 +49,8 @@ body {
 
 h1, h2, h3, h4, h5 {
     font-weight: 500;
+    color: rgb(16 1 1 / 55%);
+    /* color: #2c2c6c; */
 }
 
 h1 {
@@ -61,20 +64,22 @@ section {
 section > h2,
 section > h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-bg);
 }
 
 section > h2 {
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
+    color: rgb(62 4 4 / 55%);
     margin-bottom: 3rem;
 }
 
 .text-light {
-    color: var(--color-dark);
+    color: var(--color-bg);
 }
 
 a {
-    color: var(--color-primary);
+    /* color: var(--color-bg-variant); */
+    color: #333;
     transition: var(--transition);
 }
 
@@ -85,24 +90,28 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-bg-variant);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: ponter;
     margin-bottom: 2rem;
-    border: 1px solid var(--color-primary);
+    /* border: 1px solid var(--color-primary); */
+    border: 1px solid rgba(243, 147, 147, 0.55);
     transition: var(--transition);
 }
 
 .btn:hover {
     background: var(--color-white);
-    color: var(--color-bg);
+    /* color: var(--color-bg); */
+    color: rgb(213 61 61 / 55%);
     border-color:transparent;
 }
 
 .btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
+    /* background: var(--color-primary); */
+    background: rgb(16 1 1 / 55%);
+    /* color: var(--color-bg); */
+    color: rgb(245 233 233);
 }
 
 img {

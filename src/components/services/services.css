@@ -5,28 +5,31 @@
 }
 
 .service {
-    background: var(--color-bg-variant);
+    /* background: var(--color-primary); */
+    background: rgb(204, 100, 100);
     border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-bg);
     height: fit-content;
     transition: var(--transition);
 }
 
 .service:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-bg-variant);
     cursor: default;
 }
 
 .service__head {
-    background: var(--color-primary);
+    /* background: var(--color-bg-variant); */
+    background: rgb(183 134 134 / 55%);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .service__head h3 {
-    color: var(--color-bg);
+    /* color: var(--color-light); */
+    color: rgb(245 233 233);
     font-size: 1rem;
     text-align: center;
 }
@@ -38,11 +41,12 @@
 .service__list li {
     display: flex;
     gap: 1rem;
+    color: var(--color-bg);
     margin-bottom: 0.8rem;
 }
 
 .service__list a {
-    color: var(--color-light);
+    color: var(--color-bg);
     font-size: 1rem;
     text-decoration: none;
     transition: var(--transition);

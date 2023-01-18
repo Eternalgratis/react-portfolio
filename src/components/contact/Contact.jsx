@@ -15,7 +15,7 @@ const Contact = () => {
      e.target.reset();
   };
   return (
-    <section className='contact'>
+    <section className='contact' id="contact-segment">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
       <div className="container contact__container">

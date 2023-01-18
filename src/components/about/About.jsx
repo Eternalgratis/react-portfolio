@@ -35,13 +35,11 @@ const About = () => {
               <small>20+ Completed</small>
             </article>
           </div>
-
           <p>
-            A FullStack Developer from Lagos, Nigeria. I have a passion for building and designing websites and applications. I have a strong background in HTML, CSS, JavaScript, React, Ruby on Rails and more. 
-            I enjoy networking and learning new things.
+            A diligent FullStack Developer and a great collaborator with a background in developing efficient software applications. I have over 1300+ hours of experience, including mentoring over 5 junior developers to achieve their goals on a strict deadline. I have worked on several projects with with other developers across the continent. I have mastered communication, collaboration and other soft skills. Strong skills include React, Redux, JavaScript, Ruby on Rails, Figma, and animation libraries 
+            for building and designing websites and applications.
           </p>
-
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#Contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
