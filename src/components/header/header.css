@@ -56,7 +56,6 @@ header {
   }
 }
 
-
 /* ======== SCROLL DOWN ======== */
 .scroll-down {
   position: absolute;
@@ -84,8 +83,6 @@ header {
     margin-top: 4rem;
     overflow: hidden;
   }
-
-
 
   /* ===========MEDIA QUERIES (SMALL DEVICES)=========== */
   @media screen and (max-width: 600px) {

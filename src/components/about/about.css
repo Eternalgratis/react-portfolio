@@ -93,7 +93,6 @@
     margin: 1rem 0 1.5rem;
   }
 
-
   /* ===========MEDIA QUERIES (SMALL DEVICES)=========== */
   @media screen and (max-width: 600px) {
     .about__me {
