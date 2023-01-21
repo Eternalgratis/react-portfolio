@@ -30,17 +30,16 @@ html {
   --container-width-sm: 90%;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
+
   /* background: var(--color-bg); */
+
   /* color: var(--color-light); */
   background-color: rgb(223 195 207 / 39%);
   color: var(--color-bg);
   line-height: 1.7;
+
   /* background-image: url(./assets/bg2.png);
   background-repeat: no-repeat; */
 }
