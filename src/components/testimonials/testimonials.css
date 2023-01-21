@@ -3,6 +3,14 @@
   padding-bottom: 4rem;
 }
 
+.testimonial-hds {
+  font-size: 4rem;
+}
+
+.testimonial-hd {
+  font-size: 2rem;
+}
+
 .client__avatar {
   width: 4rem;
   aspect-ratio: 1/1;

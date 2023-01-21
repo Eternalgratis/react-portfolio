@@ -1,7 +1,29 @@
 header {
-  height: 100vh;
+  min-height: 26vh;
   padding-top: 3rem;
   overflow: hidden;
+}
+
+.my-name {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-bg);
+}
+
+.title {
+  font-size: 3rem;
+  position: relative;
+  animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+  from { left: 0; }
+  to { left: 200px; }
+}
+
+@keyframes myNEWmove {
+  from { width: 0; }
+  to { width: 500px; }
 }
 
 .header__container {
@@ -9,6 +31,10 @@ header {
   height: 100%;
 
   /* position: relative; */
+}
+
+.hello {
+  font-size: 2rem;
 }
 
 /* ======== CTA ======== */
@@ -39,7 +65,7 @@ header {
 
 /* ======== ME ======== */
 .fullstack__image {
-  width: 22rem;
+  width: 15rem;
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
