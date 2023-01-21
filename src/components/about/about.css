@@ -3,6 +3,10 @@
   grid-template-columns: 35% 50%;
 }
 
+.about-hd {
+  font-size: 4rem;
+}
+
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;

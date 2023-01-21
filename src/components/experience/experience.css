@@ -6,6 +6,10 @@
   margin-bottom: 2.4rem;
 }
 
+.skills-hd {
+  font-size: 4rem;
+}
+
 .experience__container {
   display: grid;
   grid-template-columns: 1fr 1fr;

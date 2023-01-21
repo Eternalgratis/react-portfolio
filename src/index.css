@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ::webkit-scrollbar {
   display: none;
 } */
@@ -32,17 +36,19 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: var(--color-bg);
-
+  /* background: var(--color-bg); */
   /* color: var(--color-light); */
+  background-color: rgb(223 195 207 / 39%);
   color: var(--color-bg);
   line-height: 1.7;
-  background-image: url(./assets/bg2.png);
+  /* background-image: url(./assets/bg2.png);
+  background-repeat: no-repeat; */
 }
 
 /* ===========GENERAL STYLES============= */
 .container {
-  width: var(--container-width-lg);
+  font-size: 1.2rem;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -72,9 +78,9 @@ section > h5 {
 }
 
 section > h2 {
-  /* color: var(--color-primary); */
-  color: rgb(62 4 4 / 55%);
+  /* color: rgb(62 4 4 / 55%); */
   margin-bottom: 3rem;
+  color: var(--color-bg);
 }
 
 .text-light {

@@ -5,6 +5,14 @@
   gap: 12%;
 }
 
+.contact-hd {
+  font-size: 4rem;
+}
+
+.contact-hd2 {
+  font-size: 2rem;
+}
+
 .contact__options {
   display: flex;
   flex-direction: column;
