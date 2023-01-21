@@ -47,15 +47,15 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Create User-Friendly applications</p>
+              <p>Create User-friendly applications</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Ensure clear and effective CTAs</p>
+              <p>Ensure clear and effective ctas</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Create Mobile responsive applications</p>
+              <p>Create mobile responsive applications</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -63,7 +63,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Optimized for search Engines</p>
+              <p>Optimized for search engines</p>
             </li>
           </ul>
         </article>
@@ -84,15 +84,15 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <a href="#" target="_blank" rel="noreferrer">In Progress</a>
+              <a href="#" target="_blank" rel="noreferrer">In progress</a>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <a href="#" target="_blank" rel="noreferrer">In Progress</a>
+              <a href="#" target="_blank" rel="noreferrer">In progress</a>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <a href="#" target="_blank" rel="noreferrer">In Progress</a>
+              <a href="#" target="_blank" rel="noreferrer">In progress</a>
             </li>
           </ul>
         </article>
