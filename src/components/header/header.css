@@ -13,7 +13,7 @@ header {
 .title {
   font-size: 3rem;
   position: relative;
-  animation: mymove 2s infinite;
+  animation: mymove 2s 1;
 }
 
 @keyframes mymove {
@@ -29,7 +29,6 @@ header {
 .header__container {
   text-align: center;
   height: 100%;
-
   /* position: relative; */
 }
 

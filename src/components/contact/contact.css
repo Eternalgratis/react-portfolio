@@ -40,8 +40,8 @@
 }
 
 .contact__option a {
-  margin-top: 0.7rem;
   display: inline-block;
+  margin-top: 0.7rem;
   font-size: 0.8rem;
 }
 
@@ -58,7 +58,6 @@ textarea {
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
-
   /* border: 2px solid var(--color-bg-variant); */
   border: 2px solid rgb(183 134 134 / 55%);
   resize: none;
