@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react'
 import './services.css'
 import { BiCheck } from 'react-icons/bi'
@@ -5,23 +6,23 @@ import { BiCheck } from 'react-icons/bi'
 const Services = () => {
   return (
     <section id="services">
-      <h5>What I offer</h5>
-      <h2>Services</h2>
+      <h5 className="services-hd2">What I offer</h5>
+      <h2 className="services-hd">Services</h2>
 
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
             <h3>UI/UX</h3>
           </div>
-
+          
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Create placeholders for clear direction of what is required.</p>
+              <p>Create placeholders for clear direction of what is required</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Create a hierarchy of styles and fonts.</p>
+              <p>Create a hierarchy of styles and fonts</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -29,13 +30,9 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Icons for effective communication.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>And Many More!!!</p>
-            </li>
-          </ul>
+              <p>Icons for effective communication</p>
+            </li> 
+           </ul>
         </article>
         {/* End of UI/UX */}
         <article className='service'>
@@ -46,19 +43,19 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Ensure apps takes bearest minimum time to load</p>
+              <p>Ensure apps takes barest minimum time to load</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Create User-Friendly applications</p>
+              <p>Create User-friendly applications</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Ensure clear and effective CTAs</p>
+              <p>Ensure clear and effective ctas</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Create Mobile responsive applications.</p>
+              <p>Create mobile responsive applications</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -66,7 +63,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Optimized for search Engines</p>
+              <p>Optimized for search engines</p>
             </li>
           </ul>
         </article>
@@ -83,19 +80,19 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <a href="#">More to come very soon</a>
+              <a href="#" target="_blank" rel="noreferrer">More to come very soon</a>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <a href="#">In Progress</a>
+              <a href="#" target="_blank" rel="noreferrer">In progress</a>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <a href="#">In Progress</a>
+              <a href="#" target="_blank" rel="noreferrer">In progress</a>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <a href="#">In Progress</a>
+              <a href="#" target="_blank" rel="noreferrer">In progress</a>
             </li>
           </ul>
         </article>

@@ -1,5 +1,6 @@
-import React from 'react'
-import './portfolio.css'
+/* eslint-disable */
+import React from 'react';
+import './portfolio.css';
 import IMG1 from '../../assets/awesomebooks.png';
 import IMG2 from '../../assets/bookstore.png';
 import IMG3 from '../../assets/leaderboard.png';
@@ -69,9 +70,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
-
+      <h5 className="portfolio-hd">My Recent Work</h5>
       <div className="container portfolio__container">
         {
           data.map(({ id, title, image, github, livedemo, languages, description }) => {
@@ -84,11 +83,11 @@ const Portfolio = () => {
               <div className='portfolio__description'>
                 <h3>Built with</h3>
                 <h5>{languages}</h5>
-                <p>{description}</p>
+                <p className="item-decription">{description}</p>
               </div>
               <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank'>GitHub</a>
-                <a href={livedemo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href={github} className='btn' rel="noreferrer" target='_blank'>GitHub</a>
+                <a href={livedemo} className='btn btn-primary' rel="noreferrer" target='_blank'>Live Demo</a>
               </div>
             </article>
             )
