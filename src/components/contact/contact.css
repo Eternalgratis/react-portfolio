@@ -62,7 +62,7 @@ textarea {
   /* border: 2px solid var(--color-bg-variant); */
   border: 2px solid rgb(183 134 134 / 55%);
   resize: none;
-  color: var(--color-white);
+  color: var(--color-bg);
 }
 
 button {
